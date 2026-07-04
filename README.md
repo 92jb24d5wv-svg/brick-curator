@@ -69,16 +69,3 @@ Keep these private. Do not post them in GitHub.
 ## Notes
 
 BrickLink API calls can take a while because the app checks both sold data and current stock data for every lot in the set. Large sets may take longer.
-
-## Fast Mode with Custom Settings
-
-This version includes Fast Mode to reduce BrickLink API calls and speed up iPhone use.
-
-When Fast Mode is enabled, you can customize:
-
-- Maximum lots to check
-- Minimum quantity per lot
-- Whether to include parts, minifigs, instructions/books, and box/set lots
-- Priority order: minifigs first, highest quantity first, or item number order
-
-Fast Mode results are faster, but the part-out value and buy/pass score are based only on the lots analyzed. Turn Fast Mode off for a full-set analysis.
